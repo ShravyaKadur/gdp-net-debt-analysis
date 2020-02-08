@@ -1,0 +1,25 @@
+1)To fill in the values for South Sudan and Syria, for both GDP and Net Debt, correlate with other (middle eastern, war torn maybe?) countries to find the 
+most similar values and estimate the values from that.
+
+National Currency Net Debt:
+2)To fill in the values for the Net Debt of Austria and Greece, use the MICE package in R to find out the missing values.
+
+Other possibilties include finding the average of Greece, or finding the values from elsewhere
+
+3)The values of Net Debt are increasing in Nigeria with time, so use regression to find the missing values.
+
+Net Debt to GDP:
+4)Regression for Austria maybe? Or the MICE package
+
+5)MICE package for Greece?
+
+6)Regression for Nigeria?
+
+
+*******************************************************************************************************************************************
+
+
+netDebtInNationalCurrency:
+Greece : mean = 308.669
+Austria : mean = 161.4867
+

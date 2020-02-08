@@ -1,0 +1,50 @@
+#See which country South Sudan is most similar to in terms of Net Debt
+maxValue <- corMatNDebt[1,78]
+countryN <- 0
+for( i in 2:95)
+{
+	if(i!=78)
+	{
+		if(corMatNDebt[i,78] > maxValue)
+		{
+			maxValue <- corMatGDP[i,78]
+			countryN <- i
+		}
+	}
+}
+
+#Filling in missing data values for Sudan
+for( i in 1:15)
+{
+	if(zz[i,78] == 0)
+	{
+		zz[i,78] = zz[i,countryN]
+	}
+} 
+
+
+
+#See which country South Sudan is most similar to in terms of GDP
+maxValue <- corMatGDP[1,78]
+country <- 0
+for( i in 2:95)
+{
+	if(i!=78)
+	{
+		if(corMatGDP[i,78] > maxValue)
+		{
+			maxValue <- corMatGDP[i,78]
+			country <- i
+		}
+	}
+}
+
+#Filling in missing data values for Sudan
+for( i in 1:15)
+{
+	if(z[i,78] == 0)
+	{
+		z[i,78] = z[i,country]
+	}
+} 
+

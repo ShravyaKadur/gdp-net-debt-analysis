@@ -1,0 +1,36 @@
+Mean
+Median
+Linear Regression
+
+GDP in National Currency:
+Missing Values : 
+2006-2010, South Sudan
+It became the Republic of Sudan only in 2011, it was an autonomous region till then.
+Mean and median might not be accurate because the data values have fluctuated.
+2011-2020, Syria
+Revolts started in 2011, resulting in civil war. Resultant difficulty in obtaining data for thet period.
+
+GDP in Percent Change:
+Missing Values:
+2006-2011, South Sudan
+2011-2020, Syria
+
+
+Net Debt in National Currency:
+2006-2011, Austria
+2006-2011, 2016-2020, Greece
+2006-2008, Nigeria
+2006-2010, South Sudan
+2011-2020, Syria
+(All values are 0 for Sierra Leone)
+
+Net Debt to GDP
+2006-2011, Austria
+2006-2011, 2016-2020, Greece
+2006-2008, Nigeria
+2006-2010, South Sudan
+2011-2020, Syria
+(All values are 0 for Sierra Leone)
+
+MICE for Austria and Greece
+
